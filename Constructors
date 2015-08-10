@@ -1,0 +1,25 @@
+package test;
+
+public class Constructor {
+
+	
+public static void main(String[] args) {
+		
+		Car1 c = new Car1("Benz");
+		System.out.println(c.getName());
+
+	}
+
+}
+
+class Car1 {
+	
+	String name;
+	Car1(String c){
+		this.name=c;
+	}
+	
+	String getName(){
+		return name;
+	}
+}
