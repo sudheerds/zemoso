@@ -1,0 +1,15 @@
+ackage test;
+
+public class Arrays {
+
+	
+	public static void main(String[] args) {
+		
+		
+		String[][] a = {{"hi","my","name"},{"is","Mr","Sudheer"}};
+		System.out.println(a[1][2]);
+		
+
+	}
+
+}
