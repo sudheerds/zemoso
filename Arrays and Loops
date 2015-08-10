@@ -1,0 +1,19 @@
+package test;
+
+public class Arrays {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float[] a = {1025.53F,1212.54F,15874.23F,14789.354F,16987.354F};
+		for (int i=0;i<a.length;i++){
+			System.out.printf("%.2f ", a[i]);
+		}
+		
+
+	}
+
+}
