@@ -1,0 +1,15 @@
+package test;
+
+public class Arrays {
+
+
+	public static void main(String[] args) {
+		
+		
+		float[] a = {1025.53F,1212.54F,15874.23F,14789.354F,16987.354F};
+		System.out.println("The second floating value no is %f " + a[1]);
+		
+
+	}
+
+}
