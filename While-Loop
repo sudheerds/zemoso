@@ -7,14 +7,14 @@ public class Interactive {
 	public static void main(String[] args){
 		
 		Scanner sc = new Scanner(System.in);
-		int num;
 		
+		System.out.println("Enter number 5");
 		
-		do{
-			System.out.println("Enter number 5");
-			num = sc.nextInt();
+		while(sc.nextInt()!=5){
 			
-		}while(num!=5);
+			System.out.println("Enter number 5");
+					
+		}
 		
 		System.out.println("Got it");
 			
@@ -24,3 +24,6 @@ public class Interactive {
 	}
 
 }
+
+  
+
