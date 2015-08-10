@@ -1,0 +1,26 @@
+package test;
+
+import java.util.Scanner;
+
+public class Interactive {
+	
+	public static void main(String[] args){
+		
+		Scanner sc = new Scanner(System.in);
+		int num;
+		
+		
+		do{
+			System.out.println("Enter number 5");
+			num = sc.nextInt();
+			
+		}while(num!=5);
+		
+		System.out.println("Got it");
+			
+		
+		sc.close();
+		
+	}
+
+}
