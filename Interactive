@@ -1,0 +1,25 @@
+package test;
+
+import java.util.Scanner;
+
+public class Interactive {
+	
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num = sc.nextInt();
+		if(num < 10)
+		{
+			System.out.println("This number is too small");
+		}
+		
+		else if (num >= 10){
+			System.out.println("This number is big enough");
+			
+		}
+		
+		sc.close();
+		
+	}
+
+}
