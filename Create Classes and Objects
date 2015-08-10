@@ -1,0 +1,20 @@
+package test;
+
+public class Classes {
+
+	
+	public static void main(String[] args) {
+		
+		Car c = new Car();
+		c.start();
+
+	}
+
+}
+
+class Car{
+	
+	void start(){
+		System.out.println("Car started!");
+	}
+}
