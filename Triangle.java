@@ -39,10 +39,10 @@ class Triangle{
 				int sum2 = x+b;
 				
 				if (sum1 > sum2){
-					al.add(c,sum1);
+					al.set(c,sum1);
 				}
 				else {
-					al.add(c,sum2);
+					al.set(c,sum2);
 				}
 					
 				//c--;
@@ -55,5 +55,12 @@ class Triangle{
 			System.out.println(al.get(0));
 		
 	}
+	
+	public static void main(String[] args) throws IOException {
+			
+			String fname = "/home/sudheerds/Desktop/triangle.txt";
+			Triangle.compute(fname);
+
+		}
 }
 
