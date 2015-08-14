@@ -23,7 +23,7 @@ class Triangle{
 			int s = al.size()-1;
 			int k,c;
 			
-			for(int r = line; r>1; r--){
+			for(int r = line; r>1; r--){ 
 				
 				k=s;
 				c = k-r; 
